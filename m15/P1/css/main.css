@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: comic sans ms, sans-serif;
+    line-height: 1.6;
+    background-color: #a2cfec;
+    color: #1f1e1e;
+}
+
+#container{
+  display:grid;
+  border: 1px solid red;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: calc(33.33vh - 10px) calc(33.33vh - 10px) calc(33.33vh - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#container .celda1{
+  padding: 9px;
+  background-color:#a60573;
+  border-radius: 5px;
+}
