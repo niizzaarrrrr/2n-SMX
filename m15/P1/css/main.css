@@ -3,6 +3,11 @@
     padding:0;
 }
 
+a{
+    text-decoration: none;
+    color: #1f1e1e;
+}
+
 body{
     font-family: comic sans ms, sans-serif;
     line-height: 1.6;
@@ -10,17 +15,87 @@ body{
     color: #1f1e1e;
 }
 
-#container{
-  display:grid;
-  border: 1px solid red;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: calc(33.33vh - 10px) calc(33.33vh - 10px) calc(33.33vh - 10px);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+#intereses{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 500%;
+    gap: 10px;
+    padding: 10px;
 }
 
-#container .celda1{
-  padding: 9px;
-  background-color:#a60573;
-  border-radius: 5px;
+.intereslectura, .interesvideojuegos, .interesamigos, .interesseries{
+    padding: 1.25rem;
+    border: 2px solid #39718f;
+    border-radius: 8px;
+    background-color: #e8f4fb;
+}
+
+.intereslectura img, .interesvideojuegos img, .interesamigos img, .interesseries img{
+    border-radius: 20px;
+    object-fit: cover;
+    
+}
+
+
+.header{
+    background-color: #39718f;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
+
+.nav{
+    background-color: #39718f;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
+
+#verano{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 500%;
+    gap: 10px;
+    padding: 10px;
+}
+
+.viatge, .activitats, .muntanya, .amics{
+    padding: 1.25rem;
+    border: 2px solid #39718f;
+    border-radius: 8px;
+    background-color: #e8f4fb;
+}
+
+#inici{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 500%;
+    gap: 10px;
+    padding: 10px;
+}
+
+.presentacio{
+    padding: 1.25rem;
+    border: 2px solid #39718f;
+    border-radius: 8px;
+    background-color: #e8f4fb;
+}
+
+#informacio{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 500%;
+    gap: 10px;
+    padding: 10px;
+}
+
+.nizar{
+    padding: 1.25rem;
+    border: 2px solid #39718f;
+    border-radius: 8px;
+    background-color: #e8f4fb;
 }
