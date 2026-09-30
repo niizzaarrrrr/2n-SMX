@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+    color: #0086f3;
+}
+
+a:hover{
+    color: #eb0707;
+}
+
+body{
+    font-family: comic sans ms, sans-serif;
+    line-height: 1.6;
+    background-color: #a2cfec;
+    color: #1f1e1e;
+}
+
+.nav{
+    background-color: #39718f;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
+
+.nav summary{
+    cursor: pointer;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav li{
+    padding: 4px 0;
+}
+
+.nav a{
+    color: #fff;
+}
+
+
+.viatge, .activitats, .muntanya, .amics{
+    padding: 10px;
+    border: 2px solid #39718f;
+    border-radius: 8px;
+    background-color: #e8f4fb;
+}
+
+
+
+.presentacio{
+    padding: 10px;
+    border: 2px solid #39718f;
+    border-radius: 8px;
+    background-color: #e8f4fb;
+}
+
+
+.nizar{
+    padding: 10px;
+    border: 2px solid #39718f;
+    border-radius: 8px;
+    background-color: #e8f4fb;
+}
+
+
+.cancion{
+    padding: 10px;
+    border: 2px solid #39718f;
+    border-radius: 8px;
+    background-color: #e8f4fb;
+}
+
+.boton-cancion{
+    background-color: #39718f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+summary:hover{
+    background-color: #2c5d73;
+    color: #eb0707;
+}
+
+
+@media (max-width: 1200px) {
+    #verano, #intereses, #inici, #informacio{
+        font-size: 10px;
+    }
+}

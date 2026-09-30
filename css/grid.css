@@ -1,0 +1,163 @@
+#intereses,
+#verano{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10vh 45vh 45vh 5vh;
+    height: 500%;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+#informacio{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+#topcanciones{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 20px;
+}
+
+#inici{ 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.intereslectura,
+.viatge{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 10px;
+    border: 2px solid #39718f;
+    border-radius: 8px;
+    background-color: #e8f4fb;
+}
+
+
+.interesvideojuegos,
+.activitats{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 10px;
+    border: 2px solid #39718f;
+    border-radius: 8px;
+    background-color: #e8f4fb;
+}
+
+.interesamigos,
+.muntanya
+{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 10px;
+    border: 2px solid #39718f;
+    border-radius: 8px;
+    background-color: #e8f4fb;
+}
+
+.interesseries,
+.amics{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding: 10px;
+    border: 2px solid #39718f;
+    border-radius: 8px;
+    background-color: #e8f4fb;
+    
+}
+
+.intereslectura img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 50%;
+    
+}
+
+.interesvideojuegos img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 50%;
+    
+}
+
+.interesamigos img {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 50%;
+}
+
+.interesseries img {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 50%;
+}
+
+.activitats img{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 40%;
+ }
+
+.muntanya img{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 40%;
+}
+
+
+    .viatge img{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 40%;
+}
+
+.amics img {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 40%;
+}
+
+
+.header{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: #39718f;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
+
+.footer{
+    grid-column: 1/3;
+    grid-row: 4/5;
+    background-color: #39718f;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
